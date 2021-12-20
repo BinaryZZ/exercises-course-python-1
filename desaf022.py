@@ -1,0 +1,8 @@
+nome = input('Digite seu nome: ')
+nome2 = nome.strip()
+nome3 = nome.replace(' ','')
+nome4 = nome.split()
+print ('Nome em letras maiúsculas:',nome.upper())
+print ('Nome em letras minúsculas:',nome.lower())
+print ('Letras ao todos (sem considerar os espaços):',len(nome3)) #len(nome) - nome.count (' ')
+print ('Quantas letras tem o primeiro nome:',len(nome4[0])) #nome.find(' ')
